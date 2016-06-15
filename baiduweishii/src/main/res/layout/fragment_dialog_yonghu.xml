@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/tv_leichun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂用内存25mb"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/tv_yinxianqi"
+                android:textColor="@color/color1"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@mipmap/app_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应用详情"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_add"
+                android:textColor="@color/color1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:drawableLeft="@mipmap/add_white_list"
+                android:layout_height="wrap_content"
+                android:text="加入白名单"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        >
+        <Button
+            android:id="@+id/but_quxiao"
+            android:layout_width="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="取消"
+            android:textColor="@color/color1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/but_qingli"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="清理"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/color1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

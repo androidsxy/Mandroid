@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="@drawable/load_amg"
+    tools:context="com.zzptc.sxy.baiduweishii.activity.LoadActivity">
+
+    <ImageView
+        android:id="@+id/iv_red"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:src="@mipmap/load_one"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/iv_yellow"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:src="@mipmap/load_two"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在检查升级……"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginBottom="5dp"/>
+</RelativeLayout>

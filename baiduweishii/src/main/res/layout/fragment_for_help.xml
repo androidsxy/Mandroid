@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/color1"
+    android:layout_height="match_parent"
+    tools:context="com.zzptc.sxy.baiduweishii.DialogFragment.ForHelpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/rl_bear"
+        android:background="@color/color1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/one_key_help_bear"
+            />
+
+    </RelativeLayout>
+<TextView
+    android:layout_below="@id/rl_bear"
+    android:id="@+id/tv_help"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="危机时刻，瞬间求救"
+    android:gravity="center_horizontal"
+    android:textColor="@android:color/white"
+    android:textSize="26dp"
+    />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_help"
+        android:id="@+id/text_help_1"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:text="绑定紧急联系人快速求救"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_hel"
+        android:background="#79C575"
+        android:layout_below="@id/text_help_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:text="开启一键求救"
+        />
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzptc.sxy.baiduweishii.activity.OneKeyForHelpActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        app:navigationIcon="@mipmap/back"
+        app:title="一键求救"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/color1"
+        android:titleTextColor="#ffffff"
+        >
+
+       <ImageView
+           android:id="@+id/image_one"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@mipmap/question"
+           android:layout_marginRight="10dp"
+           android:layout_gravity="right"
+           />
+
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <FrameLayout
+           android:id="@+id/frame_jia"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+       </FrameLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

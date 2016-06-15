@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.zzptc.sxy.baiduweishii.activity.GuanYuActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        app:navigationIcon="@mipmap/back"
+        app:title="关于"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/color1"
+        android:titleTextColor="#ffffff"
+       />
+    <RelativeLayout
+        android:background="@color/beng_hu"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ImageView
+            android:id="@+id/image"
+
+            android:layout_centerInParent="true"
+            android:src="@mipmap/welcome_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="210dp"
+            android:layout_toRightOf="@id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v80.5"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.45"
+    >
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="感谢以下小伙伴做出的贡献："
+        />
+    <TextView
+        android:layout_below="@id/text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="andy，背影，信仰爱，伏无，想来很响亮，勿语。。。。。"
+        />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.4">
+    <TextView
+        android:textColor="@color/chao_liangjie"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="新浪微博"
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/chao_liangjie"
+        android:id="@+id/text4"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:text="百度贴吧"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/chao_liangjie"
+        android:layout_below="@id/text3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:text="QQ群"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/chao_liangjie"
+        android:layout_below="@id/text4"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="微信公众号"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3">
+<TextView
+    android:id="@+id/text2"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="湖南汽车工程学院@2016 Bai，luc"
+    />
+            <TextView
+                android:layout_below="@id/text2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="All Rights Reserved"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

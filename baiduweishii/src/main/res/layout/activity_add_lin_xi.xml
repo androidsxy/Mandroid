@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.zzptc.sxy.baiduweishii.activity.AddLinXiActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/color1"
+        android:titleTextColor="#ffffff"
+        >
+
+            <ImageView
+                android:id="@+id/image_XZ"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/circle_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text_xuanzei"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:text="选择联系人（0）"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/text_quding"
+    android:text="确定"
+    android:textSize="16dp"
+    android:textColor="@android:color/darker_gray"
+    android:layout_gravity="right"
+    android:layout_marginRight="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+    </android.support.v7.widget.Toolbar>
+<RelativeLayout
+    android:id="@+id/re_tian"
+    android:background="@android:color/darker_gray"
+    android:layout_below="@id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <LinearLayout
+        android:background="@drawable/check_ser1"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="45dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/search_contact"
+            />
+       <EditText
+           android:id="@+id/edit_add_mohu"
+           android:hint="请输入联系了的号码"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+    <ListView
+
+        android:id="@+id/list_xZ"
+        android:layout_below="@id/re_tian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        >
+
+    </ListView>
+    <ListView
+        android:id="@+id/lv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/re_tian"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:visibility="gone"></ListView>
+</RelativeLayout>

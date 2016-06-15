@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">百度卫士</string>
+    <string name="tongyi">同意<u>《安装许可协议》</u></string>
+    <string name="jianru">加入<u>用户体验改进计划</u></string>
+    <string name="danqian">当前已是最新版本</string>
+    <string name="baidu">百度卫士提示你</string>
+    <string name="xinban">已检测到新版本，点击确定升级</string>
+    <string name="jian">家庭防护</string>
+    <string name="jingji">注意：请确保手机信号畅通，并授予百度手机卫士发送短信、读取位置信息的权限</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zhengjai">      正在运行的进程有（2个）</string>
+</resources>

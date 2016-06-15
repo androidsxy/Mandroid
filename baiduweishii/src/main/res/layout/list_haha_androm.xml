@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <RelativeLayout
+        android:background="@drawable/check_ser"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+<TextView
+    android:layout_marginLeft="20dp"
+    android:layout_centerVertical="true"
+    android:textSize="15dp"
+    android:text="127417457"
+    android:layout_weight="1"
+    android:id="@+id/text_phone_haha"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="姓名"
+        android:id="@+id/text_name_haha"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_puchu"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/clear_search"
+        android:layout_weight="1"
+        android:layout_marginLeft="280dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+        </RelativeLayout>
+    <LinearLayout
+       android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="5px">
+    </LinearLayout>
+</LinearLayout>

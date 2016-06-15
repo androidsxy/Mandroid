@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzptc.sxy.baiduweishii.activity.JianTingActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        app:navigationIcon="@mipmap/back"
+        app:title="家庭防护"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/color1"
+        android:titleTextColor="#ffffff"
+        />
+    <RelativeLayout
+        android:id="@+id/rel_dongl"
+        android:layout_below="@id/toolbar"
+        android:background="@color/color1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        >
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@mipmap/family_protect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:background="@color/user_color"
+        android:layout_below="@id/rel_dongl"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="2.5"
+           >
+          <LinearLayout
+              android:id="@+id/lin_Jt_1"
+              android:layout_marginTop="8dp"
+              android:background="@android:color/white"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              >
+              <LinearLayout
+                  android:layout_weight="1"
+                  android:orientation="horizontal"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent">
+              <RelativeLayout
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent">
+                  <ImageView
+                      android:src="@mipmap/onekey_for_help"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      />
+
+              </RelativeLayout>
+              <RelativeLayout
+                  android:layout_width="0dp"
+                  android:layout_weight="3"
+                  android:layout_height="match_parent">
+                  <LinearLayout
+                      android:layout_marginLeft="10dp"
+                      android:orientation="vertical"
+                      android:layout_centerInParent="true"
+                      android:layout_width="match_parent"
+                      android:layout_height="60dp">
+                  <TextView
+                      android:layout_marginTop="5dp"
+                      android:id="@+id/text_yi"
+                      android:text="一键求救"
+                      android:textColor="#000000"
+                      android:textSize="15dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      />
+                  <TextView
+                      android:layout_below="@id/text_yi"
+                      android:text="危机时刻，瞬间求救"
+                      android:layout_width="wrap_content"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:textSize="12dp"/>
+
+                  </LinearLayout>
+              </RelativeLayout>
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent">
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="170dp"
+                      android:layout_gravity="center_vertical"
+                      android:src="@mipmap/right"/>
+
+              </LinearLayout>
+          </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/lin_Jt_2"
+               android:layout_marginTop="5dp"
+               android:background="@android:color/white"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               >
+               <LinearLayout
+                   android:layout_weight="1"
+                   android:orientation="horizontal"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent">
+               <RelativeLayout
+                   android:layout_weight="1"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent">
+                   <ImageView
+                       android:src="@mipmap/protect_family"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerInParent="true"
+                       />
+
+               </RelativeLayout>
+
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_weight="3"
+                   android:layout_height="match_parent">
+                   <LinearLayout
+                       android:layout_marginLeft="10dp"
+                       android:orientation="vertical"
+                       android:layout_centerInParent="true"
+                       android:layout_width="match_parent"
+                       android:layout_height="60dp">
+                       <TextView
+                           android:layout_marginTop="5dp"
+                           android:text="守护家庭"
+                           android:textColor="#000000"
+                           android:textSize="15dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:layout_weight="1"
+                           />
+                       <TextView
+                           android:layout_marginTop="0dp"
+                           android:layout_below="@id/text_yi"
+                           android:text="开启守护，谨防诈骗"
+                           android:layout_width="wrap_content"
+                           android:layout_height="0dp"
+                           android:textSize="12dp"
+                           android:layout_weight="1" />
+
+                   </LinearLayout>
+
+               </RelativeLayout>
+
+
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="match_parent">
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="170dp"
+                       android:layout_gravity="center_vertical"
+                       android:src="@mipmap/right"/>
+
+               </LinearLayout>
+           </LinearLayout>
+<LinearLayout
+    android:id="@+id/lin_JT_3"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/justime_alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:text="实时警讯"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_marginTop="0dp"
+                    android:layout_below="@id/text_yi"
+                    android:text="开启守护，谨防诈骗"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:textSize="12dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/right"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+       </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            ></LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

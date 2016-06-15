@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    >
+<LinearLayout
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_name"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="16dp"
+        android:text="name"
+        android:layout_width="100dp"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/bu_guanli"
+        android:text="管理"
+        android:textSize="16dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="60dp"
+        android:textColor="@android:color/white"
+        android:background="@color/color1"
+        android:layout_width="53dp"
+        android:layout_height="32dp" />
+</LinearLayout>
+</LinearLayout>
